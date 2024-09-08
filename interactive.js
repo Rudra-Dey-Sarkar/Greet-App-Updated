@@ -11,7 +11,7 @@ function Greet(){
         err.innerText=`Please Enter Your Name !`;
         err.style.opacity = 1;
     }else{
-        msg.innerText=`Welcome ${userInput.value}`;
+        msg.innerText=`Welcome ${userInput.value}🎊`;
         msg.style.opacity = 1;
     }
     
