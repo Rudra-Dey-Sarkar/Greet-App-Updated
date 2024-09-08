@@ -1,0 +1,74 @@
+.mainContent{
+    margin: auto;
+    margin-top: 10%;
+    background-color: cyan;
+    border: 1px solid grey;
+    box-shadow: 15px 15px 10px grey;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 5px;
+}
+#user-input{
+    margin-right: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+#user-input:focus{
+    font-size: 1.4rem;
+    box-shadow: 10px 15px 10px grey;
+}
+#btn{
+    color: white;
+    background-color: cyan;
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid grey;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px grey;
+}
+#btn:hover{
+cursor: pointer;
+background-color: white;
+color: grey;
+font-size: 1.2rem;
+box-shadow: 10px 15px 10px grey;
+}
+#msg{
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#err{
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media(max-width:410px){
+#user-input{
+    width: 100%;
+}
+#btn{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+}
